@@ -1,0 +1,16 @@
+package com.SeleniumProject.javaPrograms;
+
+public class ReverseStringEg {
+
+	public static void main(String[] args) {
+		// polindrome
+		String course = "Selenium";
+		int len = course.length();
+
+		for(int i = len - 1; i >= 0; i--)
+		{
+			System.out.print(course.charAt(i));
+		}
+	}
+
+}

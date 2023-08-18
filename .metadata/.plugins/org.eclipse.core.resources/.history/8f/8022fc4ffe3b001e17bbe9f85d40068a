@@ -1,0 +1,13 @@
+package pom;
+
+import functionalDriven.GenericMethods;
+
+public class LoginTest_POM extends GenericMethods{
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package pom;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import functionalDriven.GenericMethods;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class LoginTest_POM{
+
+	public static void main(String[] args) {
+		
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver = new FirefoxDriver();
+
+	}
+
+}

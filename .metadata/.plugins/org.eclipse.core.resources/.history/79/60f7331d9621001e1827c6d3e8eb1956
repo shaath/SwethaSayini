@@ -1,0 +1,11 @@
+package com.SeleniumProject.javaPrograms;
+
+public class ReverseString2 {
+
+	public static void main(String[] args) {
+		
+		String course = "Selenium";
+		
+		StringBuilder sb = new StringBuilder();
+	}
+}

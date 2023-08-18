@@ -1,0 +1,26 @@
+package day13;
+
+import java.awt.Desktop.Action;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class KeyboardEg {
+
+	public static void main(String[] args) {
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver = new FirefoxDriver();
+		driver.get("http://www.facebook.com/");
+
+		driver.findElement(By.id("email")).sendKeys("Test");
+		Actions act = new Actions(driver);
+		
+		act.doubleClick().perform();
+		
+	}
+
+}

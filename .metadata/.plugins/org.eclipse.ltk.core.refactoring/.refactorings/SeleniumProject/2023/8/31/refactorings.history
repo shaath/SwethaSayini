@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;MultipleWindowhandlingEg.java&apos; to &apos;SeleniumProject/src/day12&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumProject&apos;&#x0D;&#x0A;- Destination element: &apos;SeleniumProject/src/day12&apos;&#x0D;&#x0A;- Original element: &apos;day11.MultipleWindowhandlingEg.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;day12" element1="/src&lt;day11{MultipleWindowhandlingEg.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1690990478719" units="1" version="1.0"/>
+</session>
